@@ -1,11 +1,11 @@
-<h3>使用android 手机很多情况下需要root权限，关于root权限获取的原理可以参考以下文章：</h3>
+<h4>使用android 手机很多情况下需要root权限，关于root权限获取的原理可以参考以下文章：</h4>
 <ul>
-<li>1、云中漫步博客：  Android系统root破解原理分析     <a href="http://my.unix-center.net/~Simon_fu/?p=1069</a></li>
-<li>2、云中漫步 ? Android系统root破解原理分析（续） <a href="http://my.unix-center.net/~Simon_fu/?p=1100</a></li>
-<li>3、zergRush - 随想专栏 - 博客频道 - CSDN.NET <a href="http://blog.csdn.net/tomken_zhang/article/details/6866260</a></li>
-<li>4、zergRush (补充) - 随想专栏 - 博客频道 - CSDN.NET <a href="http://blog.csdn.net/tomken_zhang/article/details/6870104</a></li>
-<li>5、结合init源码剖析android root提权漏洞（CVE-2010-E... <a href="http://bbs.pediy.com/showthread.php?t=139738</a></li>
-<li>6、Android提权代码zergRush分析 | i, Claud <a href="http://blog.claudxiao.net/2011/10/zergrush</a></li>
+<li><a href="http://my.unix-center.net/~Simon_fu/?p=1069" target="_blank">1、云中漫步博客：  Android系统root破解原理分析    </a></li>
+<li><a href="http://my.unix-center.net/~Simon_fu/?p=1100" target="_blank">2、云中漫步 ? Android系统root破解原理分析（续）</a></li>
+<li><a href="http://blog.csdn.net/tomken_zhang/article/details/6866260" target="_blank">3、zergRush - 随想专栏 - 博客频道 - CSDN.NET </a></li>
+<li><a href="http://blog.csdn.net/tomken_zhang/article/details/6870104" target="_blank">4、zergRush (补充) - 随想专栏 - 博客频道 - CSDN.NET </a></li>
+<li><a href="http://bbs.pediy.com/showthread.php?t=139738" target="_blank">5、结合init源码剖析android root提权漏洞（CVE-2010-E... </a></li>
+<li><a href="http://blog.claudxiao.net/2011/10/zergrush" target="_blank">6、Android提权代码zergRush分析 | i, Claud </a></li>
 </ul>
 
 原理是利用了android的两个提权漏洞： CVE-2010-EASY 和 ZergRush。 我把大概原理简单说说：
@@ -17,7 +17,7 @@
 扯了半天还没扯到superuser.apk，这个程序是root成功后，专门用来管理root权限使用的，防止被恶意程序滥用。我一直很好奇他是怎么做到这一点的，         
 
 源码地址：
-<a href="http://superuser.googlecode.com/svn/trunk</a>
+<a href="http://superuser.googlecode.com/svn/trunk" target="_blank"></a>
 这个源码有点老，不过感觉原理和最新的superuser应该是差不多的。
 带着两个问题我们来分析源码：
 1、superuser是怎么知道谁想用root权限？  

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">Superuser</string>
+	<string name="superuser_permissions_description">Superuser permissions grants the application full (root) access to all the phones capabilties.</string>
+	<string name="superuser_permissions_name">Superuser Permissions</string>
+</resources>
